@@ -383,6 +383,14 @@
                 .then(() => console.log('Service Worker registrado con éxito.'))
                 .catch((error) => console.error('Error al registrar el Service Worker:', error));
         }
+navigator.serviceWorker.register('/firebase-messaging-sw.js')
+    .then(() => {
+        console.log('Service Worker registrado con éto.');
+    })
+    .catch((error) => {
+        console.error('Error al registrar el Service Worker:', error);
+    });
+
     </script>
 
 

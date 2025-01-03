@@ -3,18 +3,18 @@ self.addEventListener('install', (event) => {
     caches.open('my-cache').then((cache) => {
       return cache.addAll([
         '/',
-        'https://lverapizza.github.io/App/principal.html',
-        'https://lverapizza.github.io/App/manifest.json',
-        'https://lverapizza.github.io/App/index.html',
-        'https://lverapizza.github.io/App/contacto.html',
-        'https://lverapizza.github.io/App/css/styles.css',
-        'https://lverapizza.github.io/App/script.js',
-        'https://lverapizza.github.io/App/splash.js',
-        'https://lverapizza.github.io/App/service-worker.js',
-        'https://lverapizza.github.io/App/logo_vp.png',
-        'https://lverapizza.github.io/App/img/eventos/logo_año_nuevo.png',
-        "https://lverapizza.github.io/App/firebase-cloud-messaging-push-scope", 
-        "https://lverapizza.github.io/App/firebase-messaging-sw.js",
+        'https://lverapizza.github.io/notificaciones/principal.html',
+        'https://lverapizza.github.io/notificaciones/manifest.json',
+        'https://lverapizza.github.io/notificaciones/index.html',
+        'https://lverapizza.github.io/notificaciones/contacto.html',
+        'https://lverapizza.github.io/notificaciones/css/styles.css',
+        'https://lverapizza.github.io/notificaciones/script.js',
+        'https://lverapizza.github.io/notificaciones/splash.js',
+        'https://lverapizza.github.io/notificaciones/service-worker.js',
+        'https://lverapizza.github.io/notificaciones/logo_vp.png',
+        'https://lverapizza.github.io/notificaciones/img/eventos/logo_año_nuevo.png',
+        "https://lverapizza.github.io/notificaciones/firebase-cloud-messaging-push-scope", 
+        "https://lverapizza.github.io/notificaciones/firebase-messaging-sw.js",
 
         // Agrega otros archivos que necesites en el caché
       ]);

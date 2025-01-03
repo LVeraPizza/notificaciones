@@ -1,6 +1,6 @@
 // No uses `import` ni `importScripts` para los módulos de Firebase
 importScripts('https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js');
-importScripts('https://www.gstatic.com/firebasejs/9.18.0/firebase-messaging-sw.js');
+importScripts('https://www.gstatic.com/firebasejs/9.18.0/firebase-messaging.js');
 
 // Tu configuración de Firebase
 const firebaseConfig = {
